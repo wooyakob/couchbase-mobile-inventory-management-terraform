@@ -128,8 +128,6 @@ You will see your Capella cluster deploying in the UI.
 
 ![Capella Cluster Deploying](images/cluster-deploying.png)
 
-Many steps are dependent upon another, for example, you can't create an App Service without first creating a Capella Cluster to link it to. You can't create a Scope without a Bucket, nor a Collection without a Scope. This makes it easier to determine the logical sequence.
-
 You'll see that specific resources depend upon another, you can't create an App Service without a Capella cluster to link it to, and are therefore deployed in a specific order. The steps are clearly visible in your terminal.
 
 ![Terraform Deployment Process](images/terraform-deployment-process.png)
