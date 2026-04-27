@@ -169,6 +169,10 @@ Then add /32 at the end to make it a valid CIDR block.
 
 Update your terraform.tfvars with your public IP address in the allowed_cidr variable.
 
+Run `terraform apply` to update the allowlist.
+
+![Refresh Terraform State After IP Change](images/refresh-state-IP-change.png)
+
 Modify the cbimport command with your username, password and connection string.
 
 Move to the demo-dataset directory and run this command to make the script executable:
