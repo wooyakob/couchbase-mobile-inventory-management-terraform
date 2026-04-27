@@ -153,6 +153,8 @@ To get your created Database Credentials, run:
 terraform output -raw db_credential_password
 ```
 
+Modify the cbimport command with your unique password and connection string. 
+
 ![Get Connection String and Database Credentials](images/get_conn_pass.png)
 
 You also need an allowed IP to run cbimport because it is not an API call but opens a direct TCP connection to the Couchbase cluster on port 11210 (data) and 18091 (management). The IP allowlist will block all direct connections by default for security.
@@ -167,11 +169,9 @@ Then add /32 at the end to make it a valid CIDR block.
 
 Update your terraform.tfvars with your public IP address in the allowed_cidr variable.
 
-Run `terraform apply` to update the allowlist.
+Run `terraform apply` to ensure the allowlist is up to date (this is required if you changed your IP or are adding it for the first time after the initial build).
 
 ![Refresh Terraform State After IP Change](images/refresh-state-IP-change.png)
-
-Modify the cbimport command with your username, password and connection string.
 
 Move to the demo-dataset directory and run this command to make the script executable:
 
