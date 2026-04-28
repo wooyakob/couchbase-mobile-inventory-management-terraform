@@ -8,3 +8,11 @@ output "db_credential_password" {
   value       = module.db_credentials.db_credential_password
   sensitive   = true
 }
+
+output "allowed_cidr" {
+  description = "The current IP address allowlisted for database access"
+  value       = module.allowed_ip.allowed_cidr
+}
+
+
+

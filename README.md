@@ -168,6 +168,12 @@ Modify the cbimport command with your unique password and connection string.
 
 > If your public IP has changed since you first ran `terraform apply`, you must update the `allowed_cidr` in `terraform.tfvars` and run `terraform apply` again to update the allowlist.
 
+You can fetch your allowed CIDR that was created by Terraform to check by running:
+
+```bash
+terraform output allowed_cidr
+```
+
 Move to the demo-dataset directory and run this command to make the script executable:
 
 ```bash
