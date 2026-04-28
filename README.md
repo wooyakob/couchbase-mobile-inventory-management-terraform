@@ -1,5 +1,5 @@
-# Simple-Retail-Terraform
-Couchbase's simple retail demo application [https://github.com/couchbase-examples/couchbase-lite-retail-demo] introduces you to core Couchbase Mobile concepts and unique advantages:
+# Couchbase-Mobile-Inventory-Management-Terraform
+Couchbase's inventory management demo mobile application [https://github.com/couchbase-examples/couchbase-lite-retail-demo] introduces you to core Couchbase Mobile concepts and unique advantages:
 - Moving data from the edge to the cloud and back again. 
 - Enabling one hundred percent availability in the field.
 
@@ -109,7 +109,7 @@ Check your installation is successful by running terraform version in your termi
 ![Terraform Version](images/terraform-capella-provider.png)
 
 ## Build Infrastructure With Terraform
-In the Simple-Retail-Terraform directory, run:
+In the Parent directory, run:
 
 ```bash
 terraform init
