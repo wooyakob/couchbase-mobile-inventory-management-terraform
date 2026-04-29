@@ -1,5 +1,4 @@
 # Couchbase-Mobile-Inventory-Management-Terraform
-[Watch the Terraform Demo Video](../videos/terraform-demo.mp4)
 
 Couchbase's inventory management demo mobile application [https://github.com/couchbase-examples/couchbase-lite-retail-demo] introduces you to core Couchbase Mobile concepts and unique advantages:
 - Moving data from the edge to the cloud and back again. 
@@ -16,6 +15,9 @@ Although the required infrastructure for this demo application can be created us
 Simple to me means:
 - Setup in the fewest number of steps.
 - Setup in the most logical sequence of steps that are optimized for efficiency.
+
+## Video Demo of Full Setup
+<video src="videos/terraform-demo.mp4" width="100%" controls></video>
 
 ## Get Started
 Head to [https://cloud.couchbase.com/sign-up] and sign up for a free Capella account.
