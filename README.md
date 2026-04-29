@@ -16,7 +16,7 @@ Simple to me means:
 - Setup in the most logical sequence of steps that are optimized for efficiency.
 
 ## Video Demo of Full Setup
-![Terraform Demo Video](videos/terraform-demo-github.mp4)
+<video src="https://github.com/wooyakob/couchbase-mobile-inventory-management-terraform/raw/main/videos/terraform-demo-github.mp4" width="100%" controls></video>
 
 ## Get Started
 Head to [https://cloud.couchbase.com/sign-up] and sign up for a free Capella account.
